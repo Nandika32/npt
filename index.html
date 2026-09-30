@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Nandika P T: math enthusiast, CSE @ CUSAT, BS Data Science @ IIT Madras. Machine learning, quantum computing and mathematical modeling.">
+<title>Nandika P T</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="petals" aria-hidden="true"></canvas>
+<div class="cursor" aria-hidden="true"></div>
+
+<div class="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-count"><span id="count">0</span>%</div>
+    <div class="loader-name mono">Nandika P T · blooming</div>
+  </div>
+</div>
+
+<nav class="top">
+  <div class="nav-row wrap">
+    <a class="logo" href="#top" aria-label="Nandika P T, back to top">
+      <svg viewBox="-82 -82 164 164" aria-hidden="true"><g fill="#D38DB2"><path d="M0 0 C -24 -16, -30 -56, 0 -76 C 30 -56, 24 -16, 0 0 Z"/><path transform="rotate(72)" d="M0 0 C -24 -16, -30 -56, 0 -76 C 30 -56, 24 -16, 0 0 Z"/><path transform="rotate(144)" d="M0 0 C -24 -16, -30 -56, 0 -76 C 30 -56, 24 -16, 0 0 Z"/><path transform="rotate(216)" d="M0 0 C -24 -16, -30 -56, 0 -76 C 30 -56, 24 -16, 0 0 Z"/><path transform="rotate(288)" d="M0 0 C -24 -16, -30 -56, 0 -76 C 30 -56, 24 -16, 0 0 Z"/></g><circle r="18" fill="#DDBE82"/></svg>
+      NPT
+    </a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#work">Work</a><a href="#quantum">Quantum</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </div>
+    <a class="status" href="#contact"><i></i>Open to internships</a>
+  </div>
+</nav>
+
+<main id="top">
+  <header class="hero wrap">
+    <div class="hero-eyebrow mono"><span>CSE · CUSAT</span><span>BS Data Science · IIT Madras</span><span id="clock">Kochi · IST</span></div>
+    <div class="bloom-stage" id="bloomStage" aria-hidden="true">
+      <div class="bloom-css">
+      <div class="bloom-shadow"></div>
+      <div class="bloom-tilt" id="tilt">
+        <div class="bloom-float">
+          <div class="bloom-spin">
+            <div class="ring r1" id="r1"></div>
+            <div class="ring r2" id="r2"></div>
+            <div class="ring r3" id="r3"></div>
+            <div class="core"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <h1 class="hero-name" aria-label="Nandika"><span class="ch">N</span><span class="ch">A</span><span class="ch">N</span><span class="ch">D</span><span class="ch">I</span><span class="ch">K</span><span class="ch">A</span></h1>
+    <div class="hero-sub">
+      <p class="hero-line">Math, data <span class="serif">&amp; qubits,</span><br>grown into things people use.</p>
+      <div class="hero-meta mono"><span><b>SIG AI Lead</b> · IEEE CS CUSAT</span><span>Kochi, Kerala</span><span>Scroll ↓</span></div>
+    </div>
+  </header>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="band band-a"><div class="track" id="trackA"></div></div>
+    <div class="band band-b"><div class="track" id="trackB"></div></div>
+  </div>
+
+  <section class="about wrap" id="about">
+    <div class="label mono">About</div>
+    <div class="about-grid">
+      <p class="statement" id="statement">I'm a math enthusiast accidentally pursuing CS at CUSAT and Data Science at IIT Madras, treating code mostly as an engine to <span class="serif">test theoretical ideas.</span> My GitHub, packed with everything from <code>locus</code> geometry to Schrödinger's Cat, reflects my habit of poking my head into new concepts just to see <span class="serif">what I can build out of them.</span></p>
+      <figure class="portrait">
+        <div class="arch"><img src="assets/photo.jpg" alt="Nandika P T smiling outdoors, with long wavy hair and a floral dress" width="720" height="900"></div>
+        <svg class="pf pf1" viewBox="-100 -100 200 200" aria-hidden="true"><use href="#flowerRose"/></svg>
+        <svg class="pf pf2" viewBox="-100 -100 200 200" aria-hidden="true"><use href="#flowerViolet"/></svg>
+        <svg class="pf pf3" viewBox="-100 -100 200 200" aria-hidden="true"><use href="#flowerGold"/></svg>
+        <figcaption class="mono">Nandika P T · Kochi</figcaption>
+      </figure>
+    </div>
+    <div class="facts">
+      <div class="fact"><b>2</b><span>degrees, running in parallel</span></div>
+      <div class="fact"><b>5</b><span>quantum notebooks in Qiskit &amp; PennyLane</span></div>
+      <div class="fact"><b>23</b><span>public repositories on GitHub</span></div>
+      <div class="fact"><b>730<sup>+</sup></b><span>followers on LinkedIn</span></div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="work-head wrap">
+      <h2 class="h2">Work <span class="serif">&amp; roles</span></h2>
+      <div class="work-hint mono">Keep scrolling →</div>
+    </div>
+    <div class="hwrap">
+      <div class="htrack" id="htrack">
+        <article class="wcard c1">
+          <div class="kind mono"><span>Internship</span><span>AI</span></div>
+          <svg class="art" viewBox="-100 -100 200 200" aria-hidden="true"><use href="#flowerRose"/></svg>
+          <div class="body">
+            <h3>Aroxiania AI<small>AI Intern</small></h3>
+            <p>Built a fully autonomous lead-generation system: an AI pipeline that runs end to end on its own.</p>
+            <ul><li>AI agents</li><li>Automation</li><li>Python</li></ul>
+          </div>
+        </article>
+        <article class="wcard c2">
+          <div class="kind mono"><span>Research</span><span>Quantum</span></div>
+          <svg class="art" viewBox="-100 -100 200 200" aria-hidden="true"><use href="#flowerViolet"/></svg>
+          <div class="body">
+            <h3>Quantum Computing<small>Research Intern · CUSAT, under Dr. Sasi Gopalan</small></h3>
+            <p>From Dirac notation to working circuits: Deutsch–Jozsa, Grover's search, Shor's algorithm for N = 15, and a variational quantum classifier trained on the Iris dataset.</p>
+            <ul><li>Qiskit</li><li>PennyLane</li><li>Linear algebra</li></ul>
+          </div>
+        </article>
+        <article class="wcard c3">
+          <div class="kind mono"><span>Build</span><span>EdTech</span></div>
+          <svg class="art" viewBox="-100 -100 200 200" aria-hidden="true"><use href="#flowerBlue"/></svg>
+          <div class="body">
+            <h3>GraphSpace<small>2D &amp; 3D math visualization</small></h3>
+            <p>A graphing and modeling tool built for an LMS platform, so learners can see functions and surfaces instead of only reading about them.</p>
+            <ul><li>JavaScript</li><li>3D graphics</li><li>Math modeling</li></ul>
+          </div>
+        </article>
+        <article class="wcard c4">
+          <div class="kind mono"><span>Leadership</span><span>Community</span></div>
+          <svg class="art" viewBox="-100 -100 200 200" aria-hidden="true"><use href="#flowerGold"/></svg>
+          <div class="body">
+            <h3>IEEE CS CUSAT<small>SIG AI Lead</small></h3>
+            <p>Leading the AI special-interest group and building a community of students who learn AI by building with it.</p>
+            <ul><li>Workshops</li><li>Mentoring</li><li>AI</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="quantum wrap" id="quantum">
+    <div class="label mono">Quantum garden</div>
+    <h2 class="h2">Play with <span class="serif">a qubit</span></h2>
+    <div class="q-grid">
+      <div class="q-canvas-wrap" id="qwrap">
+        <canvas id="bloch" aria-label="Bloch sphere showing the current qubit state. Drag to rotate the view." role="img"></canvas>
+        <div class="q-drag mono">Drag to rotate</div>
+      </div>
+      <div class="q-panel">
+        <p>This is a Bloch sphere: every point on it is a possible state of one qubit. Apply gates to move the flower, then measure to collapse it to |0⟩ or |1⟩.</p>
+        <div class="ket" id="ket" aria-live="polite">|ψ⟩ = 1.000|0⟩ + 0.000|1⟩</div>
+        <div class="probs">
+          <div class="prob"><span>P(0)</span><div class="bar"><i id="p0bar"></i></div><span id="p0">100%</span></div>
+          <div class="prob"><span>P(1)</span><div class="bar"><i id="p1bar" style="width:0%"></i></div><span id="p1">0%</span></div>
+        </div>
+        <div class="gates" role="group" aria-label="Quantum gates">
+          <button class="gate" data-g="H"><b>H</b><span>Superposition</span></button>
+          <button class="gate" data-g="X"><b>X</b><span>Bit flip</span></button>
+          <button class="gate" data-g="Y"><b>Y</b><span>Flip + phase</span></button>
+          <button class="gate" data-g="Z"><b>Z</b><span>Phase flip</span></button>
+          <button class="gate" data-g="S"><b>S</b><span>Quarter turn</span></button>
+          <button class="gate" data-g="T"><b>T</b><span>Eighth turn</span></button>
+        </div>
+        <div class="q-actions">
+          <button class="btn" id="measure">Measure</button>
+          <button class="btn ghost" id="reset">Reset to |0⟩</button>
+        </div>
+        <div class="history" id="history" aria-live="polite">No measurements yet</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects wrap" id="projects">
+    <div class="label mono">Projects</div>
+    <h2 class="h2">Things <span class="serif">I've grown</span></h2>
+    <div class="p-grid">
+      <a class="pcard wide" href="https://github.com/Nandika32/locus" target="_blank" rel="noopener"><div class="glow"></div><div class="top mono"><span>Math · Visualization</span><span class="arrow">→</span></div><h3>Locus</h3><p>A digital math laboratory in the browser, with six workspaces: 2D and 3D graphspaces, differential and integral calculus, linear algebra transformations, a polar and unit-circle lab, and a data and regression grid.</p><div class="tags"><span>JavaScript</span><span>Three.js</span><span>math.js</span></div></a>
+      <a class="pcard" href="https://github.com/Nandika32/schrodingers-cat" target="_blank" rel="noopener"><div class="glow"></div><div class="top mono"><span>Quantum</span><span class="arrow">→</span></div><h3>schrodingers-cat</h3><p>Deutsch–Jozsa, Grover's search, Shor's algorithm for N = 15 and a variational quantum classifier, each as a notebook.</p><div class="tags"><span>Qiskit</span><span>PennyLane</span></div></a>
+      <a class="pcard" href="https://github.com/Nandika32/token-system" target="_blank" rel="noopener"><div class="glow"></div><div class="top mono"><span>AI</span><span class="arrow">→</span></div><h3>token-system</h3><p>An AI-based token system.</p><div class="tags"><span>TypeScript</span></div></a>
+      <a class="pcard" href="https://github.com/Nandika32/project-bibliophile" target="_blank" rel="noopener"><div class="glow"></div><div class="top mono"><span>Data</span><span class="arrow">→</span></div><h3>Bibliophile</h3><p>Best-selling books analysed: top authors, popular genres and market trends.</p><div class="tags"><span>Pandas</span><span>Matplotlib</span></div></a>
+      <a class="pcard" href="https://github.com/Nandika32/ollama" target="_blank" rel="noopener"><div class="glow"></div><div class="top mono"><span>AI</span><span class="arrow">→</span></div><h3>Fine-tuning</h3><p>Fine-tuning an AI model with Ollama.</p><div class="tags"><span>Python</span><span>LLMs</span></div></a>
+    </div>
+  </section>
+
+  <section class="toolkit wrap" aria-labelledby="tk">
+    <div><div class="label mono">Toolkit</div><h2 class="h2" id="tk" style="font-size:clamp(48px,7vw,110px)">What I <span class="serif">grow with</span></h2></div>
+    <div class="tk-list">
+      <span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Scikit-learn</span><span>Streamlit</span><span class="q">Qiskit</span><span class="q">PennyLane</span><span>JavaScript</span><span>Three.js</span><span>TypeScript</span><span>HTML</span><span>n8n</span><span>Git &amp; GitHub</span><span>Linear algebra</span><span>Mathematical modeling</span>
+    </div>
+  </section>
+
+  <section class="contact wrap" id="contact">
+    <div class="label mono">Contact</div>
+    <h2 class="big-cta">Let's build<br>something <span class="serif">beautiful.</span></h2>
+    <div class="links">
+      <a class="primary" href="https://www.linkedin.com/in/nandika-p-t-0a923b382/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://github.com/Nandika32" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+    <div class="email">
+      <a class="email-addr" href="mailto:ptnandika21@gmail.com">ptnandika21@gmail.com</a>
+      <button class="btn ghost" id="copyEmail" type="button">Copy email</button>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap mono">
+  <span>© 2026 Nandika P T</span>
+  <span id="clock2">Kochi, Kerala</span>
+  <button id="toTop">Back to top ↑</button>
+</footer>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <radialGradient id="gRose" cx="42%" cy="30%" r="80%"><stop offset="0" stop-color="#F6E4EE"/><stop offset=".25" stop-color="#E3A9C8"/><stop offset=".62" stop-color="#D38DB2"/><stop offset="1" stop-color="#6E2F55"/></radialGradient>
+    <radialGradient id="gViolet" cx="42%" cy="30%" r="80%"><stop offset="0" stop-color="#EEE8FA"/><stop offset=".25" stop-color="#CBBFEE"/><stop offset=".62" stop-color="#A897D8"/><stop offset="1" stop-color="#3E2F73"/></radialGradient>
+    <radialGradient id="gBlue" cx="42%" cy="30%" r="80%"><stop offset="0" stop-color="#E8ECFA"/><stop offset=".25" stop-color="#C3CCEF"/><stop offset=".62" stop-color="#8C9EDB"/><stop offset="1" stop-color="#27367A"/></radialGradient>
+    <radialGradient id="gGold" cx="42%" cy="30%" r="80%"><stop offset="0" stop-color="#FFF6E0"/><stop offset=".3" stop-color="#EBCB8B"/><stop offset=".7" stop-color="#DDBE82"/><stop offset="1" stop-color="#8A5B1E"/></radialGradient>
+    <radialGradient id="gCore" cx="38%" cy="32%" r="70%"><stop offset="0" stop-color="#FFF6E0"/><stop offset=".4" stop-color="#EBCB8B"/><stop offset="1" stop-color="#9C6B25"/></radialGradient>
+    <path id="pt" d="M0 0 C -24 -16, -30 -56, 0 -76 C 30 -56, 24 -16, 0 0 Z"/>
+    <g id="flowerRose"><use href="#pt" fill="url(#gRose)"/><use href="#pt" fill="url(#gRose)" transform="rotate(72)"/><use href="#pt" fill="url(#gRose)" transform="rotate(144)"/><use href="#pt" fill="url(#gRose)" transform="rotate(216)"/><use href="#pt" fill="url(#gRose)" transform="rotate(288)"/><circle r="17" fill="url(#gCore)"/></g>
+    <g id="flowerViolet"><use href="#pt" fill="url(#gViolet)"/><use href="#pt" fill="url(#gViolet)" transform="rotate(60)"/><use href="#pt" fill="url(#gViolet)" transform="rotate(120)"/><use href="#pt" fill="url(#gViolet)" transform="rotate(180)"/><use href="#pt" fill="url(#gViolet)" transform="rotate(240)"/><use href="#pt" fill="url(#gViolet)" transform="rotate(300)"/><circle r="17" fill="url(#gCore)"/></g>
+    <g id="flowerBlue"><use href="#pt" fill="url(#gBlue)"/><use href="#pt" fill="url(#gBlue)" transform="rotate(72)"/><use href="#pt" fill="url(#gBlue)" transform="rotate(144)"/><use href="#pt" fill="url(#gBlue)" transform="rotate(216)"/><use href="#pt" fill="url(#gBlue)" transform="rotate(288)"/><circle r="17" fill="url(#gCore)"/></g>
+    <g id="flowerGold"><use href="#pt" fill="url(#gGold)"/><use href="#pt" fill="url(#gGold)" transform="rotate(72)"/><use href="#pt" fill="url(#gGold)" transform="rotate(144)"/><use href="#pt" fill="url(#gGold)" transform="rotate(216)"/><use href="#pt" fill="url(#gGold)" transform="rotate(288)"/><circle r="17" fill="#6E2F55"/></g>
+  </defs>
+</svg>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
